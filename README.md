@@ -69,7 +69,7 @@ Intune allows for a wide range of app control that can easily be pushed across a
 # Endpoint Environments 
 
 **Cloud Endpoint Management:**
-- Manage devices, apps and data with Microsoft Intune, also allowing seamless integration with Microsoft 365 and Entra ID, ensuring access conmtrol and protection on all fronts!
+- Manage devices, apps and data with Microsoft Intune, also allowing seamless integration with Microsoft 365 and Entra ID, ensuring access control and protection on all fronts!
 
 **On-Premises Endpoint Management:** 
 - Ability to optimize Windows 10/11 device management allowing in ehnaced security and restriction to remote access. Integrates well with Configuration Manager and Microsoft 365.
@@ -77,8 +77,26 @@ Intune allows for a wide range of app control that can easily be pushed across a
 **Cloud + On-Premises Endpoint Management:**
 - Enable data flow to Microsoft Endpoint Management via ConfigMgr Connector.
 - Achieve cloud integration without co-management.
-
+  
 **Co-Managed Endpoint Management:**
 - Concurrently oversee Windows 10/11 devices with Configuration Manager and Intune, balancing on-premises and cloud tasks.
 
-# Device Management using Microsoft Intune
+![image](https://github.com/CertainRisk/Microsoft-Intune/assets/141761181/3aa6b2aa-dcb8-4851-b791-d2f2382ae55b)
+
+# Provisioning
+
+**Windows Devices:**
+- Windows Autopilot can be used for device provisioning as it offers four deployment modes, including Self-Deploying Mode for shared devices and User Driven Mode for traditional users. Autopilot ensures easy deployment for the latest Windows versions.
+- White Glove facilitates pre-provisioning by partners or IT staff. 
+
+**Alterntive Windows Provisioning:**
+- Configuration Manager provides diverse methods for deploying Windows OS, from Software Center to PXE.
+- Intune also supports bulk enrollment for Microsoft Entra tenants.
+
+**Apple Devices:**
+- Apple Business Manager or Apple School Manager for iOS and macOS provisioning.
+- Set up Intune to enroll Apple devices through Automated Device Enrollment, allowing you to streamline large-scale enrollment.
+
+**Android Devices:**
+- Android Enterprise zero-touch program to provision corporate-owned devices.
+     - Zero-touch allows mass provisioning and enrollment without physical contact.
