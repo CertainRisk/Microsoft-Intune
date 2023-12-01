@@ -9,7 +9,7 @@ Microsoft Intune serves as a robust endpoint management solution, overseeing mob
 - Cloud-based PC Management
 
 **Benefits:**
-- Efficiently manages Android, iOS, macOS, and Windows devices
+- Efficiently manages Android, iOS, iPadOS, macOS, and Windows devices
 - Enhances productivity while safeguarding against advanced digital threats
 
 **Integration:**
@@ -65,3 +65,20 @@ Intune allows for a wide range of app control that can easily be pushed across a
 
 6. **PIN Access Requirement:**
    - Strengthen app security by requiring a PIN for access.
+  
+# Endpoint Environments 
+
+**Cloud Endpoint Management:**
+- Manage devices, apps and data with Microsoft Intune, also allowing seamless integration with Microsoft 365 and Entra ID, ensuring access conmtrol and protection on all fronts!
+
+**On-Premises Endpoint Management:** 
+- Ability to optimize Windows 10/11 device management allowing in ehnaced security and restriction to remote access. Integrates well with Configuration Manager and Microsoft 365.
+
+**Cloud + On-Premises Endpoint Management:**
+- Enable data flow to Microsoft Endpoint Management via ConfigMgr Connector.
+- Achieve cloud integration without co-management.
+
+**Co-Managed Endpoint Management:**
+- Concurrently oversee Windows 10/11 devices with Configuration Manager and Intune, balancing on-premises and cloud tasks.
+
+# Device Management using Microsoft Intune
