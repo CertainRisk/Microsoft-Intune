@@ -3,6 +3,9 @@ Transforming device management and security in the cloud era, with Microsoft Int
 
 Microsoft Intune serves as a robust endpoint management solution, overseeing mobile devices, desktops, servers, and applications across diverse environments. This cloud-based platform integrates seamlessly with Microsoft Entra ID, Azure Information Protection, and advanced threat protection products to ensure comprehensive security against digital threats.
 
+![image](https://github.com/CertainRisk/Microsoft-Intune/assets/141761181/89bb3fd1-51e6-446e-ad96-95b99af6ba1b)
+
+
 **Key Features:**
 - Cloud-based Mobile Device Management (MDM)
 - Cloud-based Mobile Application Management (MAM)
@@ -100,3 +103,33 @@ Intune allows for a wide range of app control that can easily be pushed across a
 **Android Devices:**
 - Android Enterprise zero-touch program to provision corporate-owned devices.
      - Zero-touch allows mass provisioning and enrollment without physical contact.
+
+# App Management with Intune
+
+Intune can help manage the apps that a company's workforce uses on devices using Mobile Application Management(MAM). 
+
+![image](https://github.com/CertainRisk/Microsoft-Intune/assets/141761181/97ff6f03-3fd5-4e5a-bd32-5a9205b1e4d4)
+
+After clicking Add, you're provided with a lost of App types organized by all the different types. Then you could proceed to configuring the App configuration, even going as far as allowing you to set it on your company's portal as a featured app. 
+
+![image](https://github.com/CertainRisk/Microsoft-Intune/assets/141761181/82491633-eb5f-4d89-ab92-8856fb74d0ec)
+
+![image](https://github.com/CertainRisk/Microsoft-Intune/assets/141761181/ce50b469-a283-4f35-9d2b-08ee4187ce85)
+
+![image](https://github.com/CertainRisk/Microsoft-Intune/assets/141761181/d528c710-46df-4439-a45c-e0caaa213f7a)
+
+You can even specify the sope of the app configurations as well as group together users/devices and all them to either be Required, Available for enrolled devices or just Uninstall. 
+
+
+There are even policies to protect apps, such as data leak prevention for apps belonging to specific OS's or App specific protection policies. 
+
+![image](https://github.com/CertainRisk/Microsoft-Intune/assets/141761181/c4d06c78-3b8f-4e9a-b656-30d010957459)
+![image](https://github.com/CertainRisk/Microsoft-Intune/assets/141761181/fac74e92-deb1-46eb-bf87-d581debd00d2)
+
+![image](https://github.com/CertainRisk/Microsoft-Intune/assets/141761181/1dd45ed3-10a2-4c43-8191-82377af577db)
+
+You have the ability to upload an entire file, such as if you're looking to add an app from the Widnows MSI line-of-business like Microsoft .NET Compact Framework. 
+
+![image](https://github.com/CertainRisk/Microsoft-Intune/assets/141761181/9f3a94a6-3e15-4413-869c-715fad42187e)
+
+
