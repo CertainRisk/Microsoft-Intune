@@ -118,12 +118,11 @@ You have the ability to upload an entire file, such as if you're looking to add 
 
 ![image](https://github.com/CertainRisk/Microsoft-Intune/assets/141761181/9f3a94a6-3e15-4413-869c-715fad42187e)
 
-During configuration, you have the flexibility to both create the app and specify the requirements that must be met before the app can be installed on the device.
 
 ## Deploy
 In this phase, you assign the app to users and devices, which can be monitored within the Azure portal. The Intune administration console also provides the ability to track license usage for apps that require licenses in bulk.
 
-# Configure
+## Configure
 
 Intune and Configuration Manager provide methods to configure app installation and updates.
 
@@ -133,7 +132,18 @@ Intune and Configuration Manager provide methods to configure app installation a
 
 You can even specify the sope of the app configurations as well as group together users/devices and all them to either be Required, Available for enrolled devices or just Uninstall. 
 
-# Protect
+### Eliminating App Setup Problems!
+
+- With the addition of App configuration policies, policies are assigned to end users before running a specific app. Because the settings are unique to each app, end users don't need to take action, and the settings will be applied automatically.
+
+- Configuration policies can be used for iOS/iPadOS or Android apps.
+
+- Any of the following details can be specified for configuration settings:
+  - Custom port numbers, language, security settings, branding such as logos.
+
+This protects against the incorrect configuration of settings for apps and allows for smooth running for end users and everyone else!
+
+## Protect
 
 This phase involves implementing policies to safeguard apps, including data leak prevention for apps specific to certain operating systems and app-specific protection policies.
 
@@ -145,10 +155,32 @@ This phase involves implementing policies to safeguard apps, including data leak
 ![image](https://github.com/CertainRisk/Microsoft-Intune/assets/141761181/fac74e92-deb1-46eb-bf87-d581debd00d2)
 ![image](https://github.com/CertainRisk/Microsoft-Intune/assets/141761181/1dd45ed3-10a2-4c43-8191-82377af577db)
 
-# Retire
+# Microsoft Entra Identity
+
+- Microsoft Entra identity isolates organization data from personal data, providing additional security to organizational data.
+- It restricts user actions with organizational data, such as copy, paste, save, and view.
+- Creation and deployment on devices enrolled with Intune, another MDM service, or not enrolled in any MDM service.
+
+## Protected Apps
+
+Intune supports protected Microsoft Apps and Partner apps that incorporate MAM capabilities. They come with a variety of mobile application protection policies.
+
+- Restrict copy-and-paste and save functions.
+- Configure web links to only open in a secure Microsoft browser.
+- Support multi-identity use and app-level Conditional Access.
+- Application of DLP policies.
+- App protection without enrollment.
+- App protection on devices managed with 3rd-party EMM tools.
+
+
+## Retire
 Apps that are outdated and need to be removed can be uninstalled by assigining an **uninstall intent** to a group of users or devices. 
 
 To delete an app in Configuration Manager:
 - You delete an app by first retiring the app. 
 - Delete all deploymenets of the app and references to the app by other deployments.
 - Finally, delete all app's revisions.
+
+
+
+
