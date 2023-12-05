@@ -112,6 +112,10 @@ This phase enables the addition of applications from various sources, including:
 ![image](https://github.com/CertainRisk/Microsoft-Intune/assets/141761181/ce50b469-a283-4f35-9d2b-08ee4187ce85)
 ![image](https://github.com/CertainRisk/Microsoft-Intune/assets/141761181/d528c710-46df-4439-a45c-e0caaa213f7a)
 
+You have the ability to upload an entire file, such as if you're looking to add an app from the Widnows MSI line-of-business like Microsoft .NET Compact Framework. Line-of-business means an app written in house.
+
+![image](https://github.com/CertainRisk/Microsoft-Intune/assets/141761181/9f3a94a6-3e15-4413-869c-715fad42187e)
+
 During configuration, you have the flexibility to both create the app and specify the requirements that must be met before the app can be installed on the device.
 
 ## Deploy
@@ -139,8 +143,10 @@ This phase involves implementing policies to safeguard apps, including data leak
 ![image](https://github.com/CertainRisk/Microsoft-Intune/assets/141761181/fac74e92-deb1-46eb-bf87-d581debd00d2)
 ![image](https://github.com/CertainRisk/Microsoft-Intune/assets/141761181/1dd45ed3-10a2-4c43-8191-82377af577db)
 
-You have the ability to upload an entire file, such as if you're looking to add an app from the Widnows MSI line-of-business like Microsoft .NET Compact Framework. Line-of-business means an app written in house.
+# Retire
+Apps that are outdated and need to be removed can be uninstalled by assigining an **uninstall intent** to a group of users or devices. 
 
-![image](https://github.com/CertainRisk/Microsoft-Intune/assets/141761181/9f3a94a6-3e15-4413-869c-715fad42187e)
-
-
+To delete an app in Configuration Manager:
+- You delete an app by first retiring the app. 
+- Delete all deploymenets of the app and references to the app by other deployments.
+- Finally, delete all app's revisions.
