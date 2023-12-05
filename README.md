@@ -86,7 +86,7 @@ Configuration Manager provides diverse methods for deploying Windows OS, from So
 
 ### Apple Devices:
 
-Use Apple Business Manager or Apple School Manager for iOS and macOS provisioning. Set up Intune to enroll Apple devices through Automated Device Enrollment, allowing you to streamline large-scale enrollment.
+Use Apple Business Manager or Apple School Manager for iOS and macOS provisioning. Set up Intune to enroll Apple devices through Automated Device Enrollment, allowing you to easily accomplish large-scale enrollment.
 
 ### Android Devices:
 
@@ -98,25 +98,48 @@ Intune can help manage the apps that a company's workforce uses on devices using
 
 ![image](https://github.com/CertainRisk/Microsoft-Intune/assets/141761181/97ff6f03-3fd5-4e5a-bd32-5a9205b1e4d4)
 
-After clicking Add, you're provided with a lost of App types organized by all the different types. Then you could proceed to configuring the App configuration, even going as far as allowing you to set it on your company's portal as a featured app. 
+# App Management Lifecycle
 
+There is a lifecycle to app management, consisting of five key stages: Add, Deploy, Configure, Protect, and Retire.
+
+## Add
+This phase enables the addition of applications from various sources, including:
+- App store
+- Line-of-business AKA In-house developments
+- Built-in apps
+- Web-based apps
 ![image](https://github.com/CertainRisk/Microsoft-Intune/assets/141761181/82491633-eb5f-4d89-ab92-8856fb74d0ec)
-
 ![image](https://github.com/CertainRisk/Microsoft-Intune/assets/141761181/ce50b469-a283-4f35-9d2b-08ee4187ce85)
-
 ![image](https://github.com/CertainRisk/Microsoft-Intune/assets/141761181/d528c710-46df-4439-a45c-e0caaa213f7a)
+
+During configuration, you have the flexibility to both create the app and specify the requirements that must be met before the app can be installed on the device.
+
+## Deploy
+In this phase, you assign the app to users and devices, which can be monitored within the Azure portal. The Intune administration console also provides the ability to track license usage for apps that require licenses in bulk.
+
+# Configure
+
+Intune and Configuration Manager provide methods to configure app installation and updates.
+
+- Managed browser policies allow you to configure settings and restrict websites that your users can visit.
+- Specific settings for Microsoft Outlook can be configured upon installation.
+- Configuring user and system contexts in apps helps detect whether the app is installed or needs to be updated. 
 
 You can even specify the sope of the app configurations as well as group together users/devices and all them to either be Required, Available for enrolled devices or just Uninstall. 
 
+# Protect
 
-There are even policies to protect apps, such as data leak prevention for apps belonging to specific OS's or App specific protection policies. 
+This phase involves implementing policies to safeguard apps, including data leak prevention for apps specific to certain operating systems and app-specific protection policies.
+
+- **Conditional Access**: This feature controls access to email and services based on conditions you specify, such as device types or compliance with deployed policies.
+
+- **App Protection Policies**: These policies work with individual apps to enhance the protection of company data. They restrict data copying between unmanaged and managed apps, and also provide the capability to prevent the operation of jailbroken or rooted devices.
 
 ![image](https://github.com/CertainRisk/Microsoft-Intune/assets/141761181/c4d06c78-3b8f-4e9a-b656-30d010957459)
 ![image](https://github.com/CertainRisk/Microsoft-Intune/assets/141761181/fac74e92-deb1-46eb-bf87-d581debd00d2)
-
 ![image](https://github.com/CertainRisk/Microsoft-Intune/assets/141761181/1dd45ed3-10a2-4c43-8191-82377af577db)
 
-You have the ability to upload an entire file, such as if you're looking to add an app from the Widnows MSI line-of-business like Microsoft .NET Compact Framework. 
+You have the ability to upload an entire file, such as if you're looking to add an app from the Widnows MSI line-of-business like Microsoft .NET Compact Framework. Line-of-business means an app written in house.
 
 ![image](https://github.com/CertainRisk/Microsoft-Intune/assets/141761181/9f3a94a6-3e15-4413-869c-715fad42187e)
 
