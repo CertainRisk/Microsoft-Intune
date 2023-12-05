@@ -172,6 +172,9 @@ Intune supports protected Microsoft Apps and Partner apps that incorporate MAM c
 - App protection without enrollment.
 - App protection on devices managed with 3rd-party EMM tools.
 
+## Intune's App Protection Policies (APP)
+- APP is Intune's MAM solution for protecting against data leakage. 
+ 
 
 ## Retire
 Apps that are outdated and need to be removed can be uninstalled by assigining an **uninstall intent** to a group of users or devices. 
