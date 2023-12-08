@@ -211,5 +211,47 @@ To delete an app in Configuration Manager:
 - Finally, delete all app's revisions.
 
 
+# Conditional Access and Endpoint Security in Intune
+
+Conditional Access is a Microsoft Entra capability (for ID P1 and P2 licenses), Intune adds to this capability by adding mobile device compliance and MAM to the mix. 
+
+In Intune, groups are used in applying policies, such as Conditional Access and endpoint security.
+
+**Conditional Access Policies:** Govern access to resources like email, files, and data. They ensure that only trusted users on trusted devices using trusted apps can access these resources.
+
+**Endpoint Security Policies:** Offer vital security measures for your organization's devices.
+
+Conditional Access provides granular access control to gate access to your data based on location, devices, user state and application sensitivity. 
+
+Intune provides different types of Conditional Access:
+
+**Device Based Conditional Access**
+ - Conditional Access for Exchange on-premises, Windows PCs (Corporate Owned and BYOD)
+ - Conditional Access based on network access control & device risk.
+
+**App-based Conditional Access**
+
+## Conditional Access with Co-Management
+
+I) Intune evaluates every device in your network to determine its level of trustworthiness.
+- It ensures devices are securely configured; this evaluation is pre-security breach and configuration-based.
+- Configuration Manager also conducts an evaluation on required updates or app compliance.
+
+II) Intune can detect active security incidents on devices using Microsoft Defender for Endpoint and other mobile threat-defense providers.
+- They run ongoing behavioral analysis on devices, identifying active incidents.
+- This evaluation is post-security breach and incident-based.
+
+# Group-Based Policy Management
+
+**Assigned Groups** - Manually add users and devices to a static group.
+
+**Dynamic Groups** - Automatically add users and devices to user or device groups based on an expression.
+  - Dynamic Groups require Entra ID P1 or P2.
+
+Device categories can be created to automatically add devices to groups based on predetermined rules.
+- Different groups can be available for users to choose from during enrollment.
+- iPhone/iPad and Android device users have to select a group during setup, while for Windows, this can be done through the Company Portal.
+- Once devices are in groups, rules and apps can be assigned to them.
+
 
 
