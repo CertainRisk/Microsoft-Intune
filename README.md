@@ -227,7 +227,8 @@ Intune provides different types of Conditional Access:
 
 **Device Based Conditional Access**
  - Conditional Access for Exchange on-premises, Windows PCs (Corporate Owned and BYOD)
- - Conditional Access based on network access control & device risk.
+ - Conditional Access based on network access control.
+ - Conditional Access based on device risk. 
 
 **App-based Conditional Access**
 
@@ -240,6 +241,35 @@ I) Intune evaluates every device in your network to determine its level of trust
 II) Intune can detect active security incidents on devices using Microsoft Defender for Endpoint and other mobile threat-defense providers.
 - They run ongoing behavioral analysis on devices, identifying active incidents.
 - This evaluation is post-security breach and incident-based.
+- 
+## Device Based Conditional Access
+
+Intune and Microsoft Entra ID collaborate to allow access to email, Office 365 services, Software as a Service (SaaS) apps, and on-premises apps only for managed and compliant devices. You can configure a policy in Microsoft Entra ID to restrict access to Office 365 services exclusively for domain-joined computers or mobile devices enrolled in Intune.
+
+Intune offers device compliance policy capabilities to assess the compliance status of devices. The compliance status is reported to Microsoft Entra ID, which utilizes it to enforce the Conditional Access policy established in Microsoft Entra ID when a user attempts to access company resources.
+
+TL;DR Intune and Entra ID work in tandem to ensure that only compliant devices can access email, 365 services, SaaS apps, etc. Compliance status, as reported by Intune, is used by Entra ID to enforce Conditional Access policies.
+
+## Network Access Control Conditional Access
+
+Intune teams up with partners like Cisco ISE, Aruba Clear Pass, and Citrix NetScaler for smart access controls. This means users get access or denial to corporate Wi-Fi or VPN based on whether their device is both managed and compliant with Intune's policies.
+
+## Device Risk Conditional Access
+
+Intune teams up with Mobile Threat Defense partners for strong security against malware, Trojans, and other threats on mobile devices.
+
+**How it works:**
+- When the Mobile Threat Defense agent is on a mobile device, it sends messages to Intune about its compliance status, especially when a threat is detected.
+
+## Windows PC-based Conditional Access
+
+**Corporate-Owned**
+  - *Microsoft Entra Hybrid Joined*: Companies comfortable with managing PCs through AD policies or Configuration Manager choose this option.
+  - *Microsoft Entra Domain Joined*: Cloud-first or Cloud-only organizations allowing access to both cloud and on-premises apps and resources.
+
+**BYOD**
+- *Workplace Join and Intune Management*: Users bring their own device and access corporate resources with it. Workplace join is used to enroll devices into the Intune MDM and receive device-level policies.
+
 
 # Group-Based Policy Management
 
@@ -253,5 +283,18 @@ Device categories can be created to automatically add devices to groups based on
 - iPhone/iPad and Android device users have to select a group during setup, while for Windows, this can be done through the Company Portal.
 - Once devices are in groups, rules and apps can be assigned to them.
 
+# Implementing Security Rules with Intune's Endpoint Security Node
+
+End point security policies help you focus on security and mitigate risks to devices, allowing you to remediate devices or restore them to a compliant and secure state.
+
+Intune's Endpoint Security centralizes tools for device security:
+
+- **Device Monitoring:** Easily check the compliance status of managed devices and address policy issues.
+- **Security Baselines:** Quickly apply best practice security configurations to Windows devices and key applications.
+- **Focused Security Policies:** Tailor security settings for antivirus, disk encryption, firewalls, and more through specific endpoint-security policies.
+- **Compliance Policies:** Set rules for device and user compliance, including OS versions, passwords, and threat levels.
+- **Conditional Access Integration:** Gate access to resources based on compliance, managing both enrolled and unenrolled devices.
+- **Microsoft Defender Integration:** Seamlessly integrate with Microsoft Defender for Endpoint for enhanced security tasks and detailed remediation steps.
+- **Configuration Manager Integration:** In a co-managed scenario, link Configuration Manager with Microsoft Defender for Endpoint for advanced threat detection, investigation, and response.
 
 
