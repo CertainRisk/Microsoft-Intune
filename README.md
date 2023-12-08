@@ -172,9 +172,35 @@ Intune supports protected Microsoft Apps and Partner apps that incorporate MAM c
 - App protection without enrollment.
 - App protection on devices managed with 3rd-party EMM tools.
 
-## Intune's App Protection Policies (APP)
-- APP is Intune's MAM solution for protecting against data leakage. 
- 
+# Intune APP Data Protection Framework Levels
+
+The Intune APP Data Protection Framework is structured into three configuration levels, each tailored to specific security requirements.
+
+## Enterprise Basic Data Protection (Level 1)
+
+This foundational configuration ensures minimal data protection by safeguarding apps with a PIN and encryption. Key features include:
+
+- **PIN Protection and Encryption:** Ensures apps are protected with a PIN and encrypted.
+- **Replacement of Basic Exchange Online Policies:** Replaces the need for basic Exchange Online device access policies by introducing a PIN requirement for accessing work or school data.
+- **Comprehensive Data Protection:** App Protection Policy extends beyond Exchange Online policies, providing protection beyond mobile messaging scenarios.
+
+## Enterprise Enhanced Data Protection (Level 2)
+
+Recommended as a standard for devices accessing sensitive information, this level builds upon Level 1 by:
+
+- **Minimum OS Version Requirement:** Requires a minimum OS version for enhanced security.
+- **Data Transfer Restrictions:** Restricts data transfers to enhance protection.
+
+## Enterprise High Data Protection (Level 3)
+
+Recommended for organizations with sophisticated security needs or those targeted by adversaries, Level 3 introduces:
+
+- **Further Data Transfer Restrictions:** Adds additional restrictions on data transfer scenarios.
+- **Increased PIN Configuration Complexity:** Enhances the complexity of PIN configurations.
+- **Mobile Threat Detection:** Includes the addition of mobile threat detection for advanced security.
+
+For detailed policy settings for each framework level, refer to the official documentation [here](https://learn.microsoft.com/en-us/mem/intune/apps/app-protection-framework#level-1-enterprise-basic-data-protection).
+
 
 ## Retire
 Apps that are outdated and need to be removed can be uninstalled by assigining an **uninstall intent** to a group of users or devices. 
