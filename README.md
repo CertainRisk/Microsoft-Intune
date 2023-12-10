@@ -357,3 +357,116 @@ Connectors are connections that are configured to external services such as Appl
 
 Unhealthy Connectors show at the top of the list, next are those with warnings and then the healthy connectors and lastly those that have not yet been enabled. 
 
+# Benefits of Microsoft Intune
+
+## Endpoint Security
+
+Microsoft Intune seamlessly integrates with cloud-powered security controls and implements risk-based Conditional Access for apps and data.
+
+### Endpoint Security Management
+
+Intune offers a set of capabilities to simplify Endpoint Security Management:
+
+- **Security Baselines:** Create pre-configured groups of Windows settings to use as a template for other device profiles.
+
+- **BitLocker Management:** Manage BitLocker-based modern encryption for Windows 10/11.
+
+- **Advanced Threat Protection:** Utilize Microsoft Defender Advanced Threat Protection (ATP) and collaborate with iOS and Android for Mobile Threat Defense solutions.
+
+- **Secure Score:** Access a prioritized list of security vulnerabilities and an assessment of your security posture.
+
+- **Windows Hello for Business:** Enable passwordless authentication for Windows 10/11.
+
+# Unified Security with Microsoft Intune
+
+Securely access corporate resources using continuous assessment and intent-based policies through Conditional Access app control, powered by Microsoft Entra ID and seamlessly integrated into Microsoft Intune.
+
+## Unified Security Management
+
+- **Microsoft Defender for Intune:** Enables quick, automated remediation of app vulnerabilities.
+  
+## Zero Trust Endpoint Strategy
+
+Microsoft Intune facilitates cross-platform device controls for your Zero Trust endpoint strategy, covering:
+
+### Endpoint Compliance and Risk
+
+- Adapt in real time to changes in device health.
+- Leverage Microsoft 365 cloud for risk evaluation.
+- Determine risks calculated based on advanced Microsoft machine learning.
+
+### Conditional Access
+
+- Define contextual policies at the user, location, device, and app levels.
+- Evaluate compliance enforced by Microsoft Entra ID for Conditional Access.
+
+### App Protection Policy
+
+- Protect apps and Office365 data on unmanaged devices.
+- Extend native platform security to meet all use cases.
+- 3rd Party risk and compliance signaliing
+
+# Unified Endpoint Management
+
+Intune seamlessly integrates with an organization's cloud journey.
+
+- Manage all PCs, Macs, and mobile devices in a centralized location.
+- Extend on-premises infrastructures with cloud securities.
+- Office 365 management with security, configuration management, and cloud optimization.
+- Secure Microsoft Apps and Edge for iOS and Android.
+  
+# Zero Touch Provisioning with Microsoft Intune
+
+Simplify software updates and provisioning for all devices. Leveraging Windows Autopilot, Android Enterprise, Apple DEP, and Samsung Knox Mobile Enrollment allows you to:
+
+- Reduce the cost of device-image creation during provisioning.
+- Enable self-service provisioning for end users.
+- Enhance end-user productivity during machine provisioning.
+- Ensure out-of-the-box security for new and updated machines.
+- Lower costs associated with keeping device hardware current.
+
+# Protecting Your Data Without Enrollment
+
+Mobile Application Management without enrollment, known as MAM-WE, can effectively manage sensitive data on almost any device. It supports two configurations:
+
+**Intune MDM + MAM** - IT admins can manage apps solely using MAM and apply app protection policies on devices enrolled with Intune MDM.
+
+**MAM Without Device Enrollment** - MAM-WE allows IT admins to manage apps using MAM and app protection policies on devices not enrolled with Intune MDM. This means Intune can manage apps on devices enrolled with 3rd party Enterprise Mobility Management (EMM) providers or not enrolled with any MDM at all.
+
+# Benefits of Co-Management
+
+Co-Management enhances the existing Configuration Manager deployment in the following ways:
+
+- Conditional Access with device compliance.
+- Intune-based remote actions (restart, remote control, reset).
+- Centralized hub to display device health.
+- Link users, devices, and apps with Entra ID.
+- Modern provisioning with Windows Autopilot.
+
+# Maximize Your Return on Investment
+
+**Fast Rollout and Integration**
+
+Microsoft Intune accelerates time-to-value with a quick rollout of services and devices, ensuring end-to-end integration across the familiar Microsoft stack.
+
+**Advanced Endpoint Analytics**
+
+Proactively enhance user experience and track progress against organization and industry baselines with Integrated Endpoint Analytics. Utilize Technology Experience Score, Desktop Analytics, Log Analytics, Real-Time Advanced Threat Detection, and Dynamic User Risk Assessment for:
+
+- Maintaining device performance and health.
+- Data-driven IT management to reduce help desk costs.
+- Leveraging machine learning for recommended security and configuration settings.
+
+**Deep Microsoft 365 Integration**
+
+Maximize value from your Microsoft 365 integrated solution with the latest cloud features to protect users' privacy and organization's data and assets. Benefit from role-based administration, Graph API, PowerShell, and Cloud Content Optimization for:
+
+- Unified IT administration experience.
+- Continuous security improvements.
+- Automated app compatibility and software updates.
+- Secure access to managed objects.
+- Capability to extend or build intelligent applications.
+- Sophisticated PowerShell scripts for complex tasks.
+- Cloud content optimization.
+- Increased end-user satisfaction through native platform experiences.
+
