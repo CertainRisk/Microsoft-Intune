@@ -297,4 +297,63 @@ Intune's Endpoint Security centralizes tools for device security:
 - **Microsoft Defender Integration:** Seamlessly integrate with Microsoft Defender for Endpoint for enhanced security tasks and detailed remediation steps.
 - **Configuration Manager Integration:** In a co-managed scenario, link Configuration Manager with Microsoft Defender for Endpoint for advanced threat detection, investigation, and response.
 
+# Analyzing and Resolving Compliance Issues with Microsoft Intune
+
+## Intune Tenant Status Page
+
+A tenant is an instance of Microsoft Entra ID that an organization receives when it signs up for Microsoft Intune. This page provides a summary of your tenant's information, including location, name, MDM authority, and a tenant service release number linking to a page with new updates.
+
+Under the **Service Health and Message Center** tab, you can view active incidents and advisories that may impact your tenant, as well as news about planned changes.
+
+## Troubleshooting + Support Page
+
+This page allows help desk operators and admins to view information for addressing user help requests. Organizations with a help desk role can assign the Help desk operator role to a group of users.
+
+The **Troubleshoot** pane displays user-enrollment issues, providing details about the issues and steps for remediation. To assist help desk operators, they only need to enter the user's name, and Intune provides useful data to resolve tier-1 issues, including:
+- User Status
+- Assignments
+- Compliance issues
+- Unresponsive device
+- Devices not receiving VPN or Wi-Fi settings
+- App installation failure
+
+## Intune Reports
+
+Microsoft Intune reports offer the flexibility to proactively monitor activity and the health of endpoints across the organization. Report types are organized into three categories:
+
+- **Operational**: Provides timely and specific data for quick actions.
+
+- **Organizational**: Offers a broader summary of the overall situation, such as the state of device management.
+
+- **Historical**: Shows patterns and trends over time, allowing for the planning of long-term developments.
+
+- **Specialist**: Enables admins to create custom reports using raw data, providing flexibility and granular customization capabilities.
+
+The reporting framework ensures a consistent and comprehensive reporting experience, including the following functionalities:
+
+- **Search and Sort**: Easily search and sort across any column, regardless of the dataset size.
+
+- **Data Paging**: Efficiently scan data based on paging, jumping pages or page-by-page.
+
+- **Performance**: Quickly generate and view reports created from large tenants.
+
+- **Export**: Export reporting data generated from large tenants.
+
+
+## Enhancing User Experience with Power of Endpoint Analytics
+
+End users often face disruptions, including lengthy boot times, attributed to legacy hardware, suboptimal software configurations, and changes. IT's limited visibility into these issues relies on slow, costly support channels. This not only burdens IT but impacts information workers' productivity, affecting the organization's bottom line.
+
+**Endpoint analytics** aims to boost user productivity and cut IT-support costs by providing insights into the user experience. It enables proactive support, optimizing end-user experiences, and detecting regressions from configuration changes.
+
+Key Focus Areas:
+1. **Recommended Software**: Suggestions for an enhanced user experience.
+2. **Proactive Remediation Scripting**: Address common support issues before users notice.
+3. **Start-up Performance**: Streamline the power-on to productivity process, minimizing boot and sign-in delays.
+
+## Connector Status
+
+Connectors are connections that are configured to external services such as Apple Volume Purchase program or Windows Autopilot. Connectors can also be certificates or credentials that are required to connect to external unmanaged services. Connector Status is based on the last successfull synchronization. 
+
+Unhealthy Connectors show at the top of the list, next are those with warnings and then the healthy connectors and lastly those that have not yet been enabled. 
 
