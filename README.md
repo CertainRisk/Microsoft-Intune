@@ -4,7 +4,7 @@ I've been wanting to look at Microsoft Intune for a while now and wanted to docu
 
 Microsoft Intune is at the forefront of modern device management, providing a powerful solution for overseeing mobile devices, desktops, servers, and applications across diverse environments. This cloud-based platform seamlessly integrates with Microsoft Entra ID, Azure Information Protection, and advanced threat protection products to ensure comprehensive security against digital threats.
 
-![image](https://github.com/CertainRisk/Microsoft-Intune/assets/141761181/89bb3fd1-51e6-446e-ad96-95b99af6ba1b)
+![image](https://github.com/CertainRisk/Microsoft-Intune/assets/141761181/4e8cccc7-da83-48f7-b530-e275fb1376ee)
 
 
 **Key Features:**
